@@ -1,0 +1,22 @@
+{
+    "values": [
+        "#swords",
+        "#axes",
+        "#pickaxes",
+        "#leg_armor",
+        "#foot_armor",
+        "#chest_armor",
+        "#head_armor",
+        "#hoes",
+        "#shovels",
+        "mace",
+        "bow",
+        "crossbow",
+        "trident",
+        "totem_of_undying",
+        "#arrows",
+        "fishing_rod",
+        "carrot_on_a_stick",
+        "warped_fungus_on_a_stick"
+    ]
+}
