@@ -1,0 +1,7 @@
+execute align xyz positioned ~ ~10 ~ run summon item_display ~0.25 ~0.6875 ~0.125 {Tags:["shelves.id.temp","shelf.item.slot","slot.1"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-10f,0f],scale:[0.35f,0.35f,0.35f]}}
+execute align xyz positioned ~ ~10 ~ run summon item_display ~0.25 ~0.6875 ~0.3125 {Tags:["shelves.id.temp","shelf.item.slot","slot.2"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-10f,0f],scale:[0.35f,0.35f,0.35f]}}
+execute align xyz positioned ~ ~10 ~ run summon item_display ~0.25 ~0.6875 ~0.5 {Tags:["shelves.id.temp","shelf.item.slot","slot.3"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-10f,0f],scale:[0.35f,0.35f,0.35f]}}
+execute align xyz positioned ~ ~10 ~ run summon item_display ~0.25 ~0.6875 ~0.6875 {Tags:["shelves.id.temp","shelf.item.slot","slot.4"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-10f,0f],scale:[0.35f,0.35f,0.35f]}}
+execute align xyz positioned ~ ~10 ~ run summon item_display ~0.25 ~0.6875 ~0.875 {Tags:["shelves.id.temp","shelf.item.slot","slot.5"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-10f,0f],scale:[0.35f,0.35f,0.35f]}}
+
+execute as @e[tag=shelves.id.temp] run data modify entity @s Rotation set value [90f,0f]
