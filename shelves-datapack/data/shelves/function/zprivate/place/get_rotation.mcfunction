@@ -12,5 +12,5 @@ execute as @n[type=marker,tag=shelves.summon] if score .X shelves.values matches
 # -449 to 449: south
 execute as @n[type=marker,tag=shelves.summon] if score .X shelves.values matches -499..499 run data modify entity @s data.block.facing set value "south"
 
-execute as @n[type=marker,tag=shelves.summon] at @s align xyz positioned ~0.5 ~ ~0.5 run function shelves:zprivate/place/setblock with entity @n[type=marker,tag=shelves.summon] data.block
+execute as @n[type=marker,tag=shelves.summon] at @s align xyz positioned ~0.5 ~ ~0.5 run function shelves:zprivate/place/setblock with entity @s data.block
 kill @e[tag=shelves.summon]
