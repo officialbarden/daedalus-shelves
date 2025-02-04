@@ -1,4 +1,5 @@
 scoreboard objectives add shelves.id dummy
+scoreboard players add .global shelves.id 1
 scoreboard objectives add shelves.values dummy
 scoreboard objectives add shelves.place minecraft.used:minecraft.allay_spawn_egg
 
